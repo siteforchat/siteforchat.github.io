@@ -7,10 +7,8 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "jakeiscool" && password === "jakeiscool") {
-        alert("You have successfully logged in.");
-        <meta http-equiv="Refresh" content="0; url='justmaddog27.github.io" />
-        location.reload();
+    if (username === "jakeiscool" && password === "jakeiscool")
+        <meta http-equiv="Refresh" content="0; url='justmaddog27.github.io"
     } else {
         loginErrorMsg.style.opacity = 1;
     }
