@@ -9,6 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "jakeiscool" && password === "jakeiscool") {
         alert("You have successfully logged in.");
+        <meta http-equiv="Refresh" content="0; url='justmaddog27.github.io" />
         location.reload();
     } else {
         loginErrorMsg.style.opacity = 1;
